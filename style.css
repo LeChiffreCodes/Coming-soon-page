@@ -1,5 +1,5 @@
 body {
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     line-height: 1.5;
     font-weight: 400;
   
@@ -14,30 +14,47 @@ body {
 
     text-align: center;
     margin: 0;
-
-    transform: scale(0.8);
-    transform-origin: center;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: wrap; /* Allows wrapping for small screens */
+    justify-content: center;
 }
 
 .logo {
-    width: 125px;
-    margin-right: 25px;
+    width: 20vw; /* Responsive width based on viewport width */
+    max-width: 150px; /* Maximum width for larger screens */
+    margin-right: 1rem; /* Adjusted for responsiveness */
 }
 
 h1 {
-    font-size: 6rem;
+    font-size: 5vw; /* Responsive font size based on viewport width */
+    margin: 0; /* Ensure there's no extra margin affecting layout */
 }
 
 #dots {
     display: inline-block;
     font-weight: 700;
-    font-size: 6rem;
-    width: 2.5rem; /* Fixed width to accommodate three dots */
-    text-align: left; /* Align the dots to the left within the space */
+    font-size: 5vw; /* Responsive font size based on viewport width */
+    width: 3rem; /* Fixed width to accommodate dots */
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        width: 30vw; /* Larger width on smaller screens */
+        max-width: 100px; /* Adjusted max width */
+    }
+
+    h1 {
+        font-size: 6vw; /* Larger font size on smaller screens */
+    }
+
+    #dots {
+        font-size: 6vw; /* Larger font size on smaller screens */
+        width: 4rem; /* Adjusted width */
+    }
 }
