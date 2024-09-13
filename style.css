@@ -59,13 +59,16 @@ h1 {
 
     .logo {
         width: 25vw; /* Adjusted width for smaller screens */
-        max-width: 100px; /* Smaller maximum width for mobile */
-        margin-bottom: 1rem; /* Space between logo and text */
+        max-width: 150px; /* Smaller maximum width for mobile */
+        margin: 0;
+        
+        
     }
 
     h1 {
-        font-size: 8vw; /* Larger font size on smaller screens */
-        margin: 0; /* Ensure no extra margin affecting layout */
+        font-size: 9vw; /* Larger font size on smaller screens */
+        margin-top: 10px; /* Ensure no extra margin affecting layout */
+        margin-left: 55px;
     }
 
     #dots {
