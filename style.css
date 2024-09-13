@@ -58,7 +58,7 @@ h1 {
     }
 
     .logo {
-        width: 25vw; /* Adjusted width for smaller screens */
+        width: 30vw; /* Adjusted width for smaller screens */
         max-width: 150px; /* Smaller maximum width for mobile */
         margin: 0;
         
