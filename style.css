@@ -11,7 +11,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    overflow: hidden; /* Prevent scrolling */
+    
     text-align: center;
     margin: 0;
 }
@@ -22,6 +23,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; /* Allows wrapping for small screens */
+    position: relative; /* Ensure proper positioning */
 }
 
 .logo {
@@ -44,13 +46,26 @@ h1 {
 }
 
 @media (max-width: 600px) {
+    body {
+        overflow: hidden; /* Ensure no scrolling on mobile */
+    }
+
+    .container {
+        flex-direction: column; /* Stack items vertically on mobile */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+        height: 100vh; /* Ensure container takes full viewport height */
+    }
+
     .logo {
         width: 25vw; /* Adjusted width for smaller screens */
         max-width: 100px; /* Smaller maximum width for mobile */
+        margin-bottom: 1rem; /* Space between logo and text */
     }
 
     h1 {
         font-size: 8vw; /* Larger font size on smaller screens */
+        margin: 0; /* Ensure no extra margin affecting layout */
     }
 
     #dots {
