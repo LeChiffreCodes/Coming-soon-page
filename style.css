@@ -63,12 +63,14 @@ h1 {
         margin: 0;
         
         
+        
     }
 
     h1 {
         font-size: 9vw; /* Larger font size on smaller screens */
-        margin-top: 10px; /* Ensure no extra margin affecting layout */
+        margin-top: 20px; /* Ensure no extra margin affecting layout */
         margin-left: 55px;
+        margin-bottom: 50%;
     }
 
     #dots {
