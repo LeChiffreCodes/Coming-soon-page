@@ -50,11 +50,11 @@ h1 {
     }
 
     h1 {
-        font-size: 6vw; /* Larger font size on smaller screens */
+        font-size: 8vw; /* Larger font size on smaller screens */
     }
 
     #dots {
-        font-size: 6vw; /* Larger font size on smaller screens */
+        font-size: 8vw; /* Larger font size on smaller screens */
         width: 4rem; /* Adjusted width for larger dots */
     }
 }
