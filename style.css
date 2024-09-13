@@ -70,7 +70,7 @@ h1 {
         font-size: 9vw; /* Larger font size on smaller screens */
         margin-top: 20px; /* Ensure no extra margin affecting layout */
         margin-left: 55px;
-        margin-bottom: 50%;
+        margin-bottom: 35%;
     }
 
     #dots {
