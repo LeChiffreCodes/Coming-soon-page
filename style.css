@@ -20,8 +20,8 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap; /* Allows wrapping for small screens */
     justify-content: center;
+    flex-wrap: wrap; /* Allows wrapping for small screens */
 }
 
 .logo {
@@ -45,8 +45,8 @@ h1 {
 
 @media (max-width: 600px) {
     .logo {
-        width: 30vw; /* Larger width on smaller screens */
-        max-width: 100px; /* Adjusted max width */
+        width: 25vw; /* Adjusted width for smaller screens */
+        max-width: 100px; /* Smaller maximum width for mobile */
     }
 
     h1 {
@@ -55,6 +55,6 @@ h1 {
 
     #dots {
         font-size: 6vw; /* Larger font size on smaller screens */
-        width: 4rem; /* Adjusted width */
+        width: 4rem; /* Adjusted width for larger dots */
     }
 }
