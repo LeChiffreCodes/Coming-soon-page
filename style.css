@@ -56,7 +56,7 @@ h2 {
 }
 
 .no-underline:hover {
-    color: #fff; /* Optional: Change color on hover */
+    color: rgba(255, 255, 255, 0.87);
 }
 
 
