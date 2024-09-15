@@ -19,7 +19,7 @@ body {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column; /* Stack items vertically on fullsize */
     align-items: center;
     justify-content: center;
     flex-wrap: wrap; /* Allows wrapping for small screens */
@@ -37,6 +37,11 @@ h1 {
     margin: 0; /* Ensure there's no extra margin affecting layout */
 }
 
+h2 {
+    font-size: 1.4vw; /* Responsive font size based on viewport width */
+    margin-top: 20px; /* Add margin between h1 and h2 */
+}
+
 #dots {
     display: inline-block;
     font-weight: 700;
@@ -44,6 +49,16 @@ h1 {
     width: 3rem; /* Fixed width to accommodate dots */
     text-align: left;
 }
+
+.no-underline {
+    text-decoration: none; /* Remove the underline */
+    color: inherit; /* Keep the text color the same as surrounding text */
+}
+
+.no-underline:hover {
+    color: #fff; /* Optional: Change color on hover */
+}
+
 
 @media (max-width: 600px) {
     body {
@@ -61,16 +76,18 @@ h1 {
         width: 30vw; /* Adjusted width for smaller screens */
         max-width: 150px; /* Smaller maximum width for mobile */
         margin: 0;
-        
-        
-        
     }
 
     h1 {
         font-size: 9vw; /* Larger font size on smaller screens */
         margin-top: 20px; /* Ensure no extra margin affecting layout */
         margin-left: 55px;
-        margin-bottom: 35%;
+        margin-bottom: 0; /* Remove unnecessary margin */
+    }
+
+    h2 {
+        font-size: 3vw; /* Responsive font size for mobile */
+        margin-top: 20px; /* Keep the same 10px margin between h1 and h2 */
     }
 
     #dots {
