@@ -33,9 +33,9 @@ export default function LandingPage() {
             className="w-full h-auto"
           />
         </a>
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-8 flex flex-wrap justify-center items-center">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 flex flex-wrap justify-center items-center">
           <span className="mr-2">Coming Soon</span>
-          <span className="inline-block w-16 sm:w-20 text-left">{'.'.repeat(dotCount)}</span>
+          <span className="inline-block w-20 sm:w-24 md:w-28 text-left">{'.'.repeat(dotCount)}</span>
         </h1>
         <div className="flex gap-6">
           <a
