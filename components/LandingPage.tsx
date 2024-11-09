@@ -26,7 +26,7 @@ export default function LandingPage() {
         }
       `}</style>
       <div className="flex flex-col items-center justify-center min-h-screen bg-[#242424] text-[rgba(255,255,255,0.87)] text-center p-6 sm:p-8">
-        <a href="https://x.com/DiceDegen_" className="mb-8 w-[40vw] sm:w-[30vw] md:w-[20vw] max-w-[180px] float-animation">
+        <a  className="mb-8 w-[40vw] sm:w-[30vw] md:w-[20vw] max-w-[180px] float-animation">
           <img
             src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/logo-uEShAZtvB74EPDZWcskMm0tWWokERq.svg"
             alt="DiceDegen Logo"
