@@ -15,7 +15,6 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
-        <link rel="icon" href="\logodice.png" type="image/png"></link>
       </head>
       <body className="font-[Inter,sans-serif]">{children}</body>
     </html>
